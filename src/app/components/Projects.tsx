@@ -1,6 +1,5 @@
 import { Rocket, PhoneCall, ExternalLink } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
-import screenmeImage from 'figma:asset/0bc4ae39b981124639f37643064868f022911096.png';
 
 interface Project {
   titleKey: string;
@@ -30,7 +29,6 @@ export function Projects() {
       technologies: ['AI Integration', 'Dialogue Systems', 'Backend SaaS', 'Product Engineering'],
       link: 'https://www.screenme.pro/',
       icon: Rocket,
-      image: screenmeImage,
     },
     {
       titleKey: 'project.analytics',
